@@ -94,4 +94,4 @@ Em `.planning/STATE.md`:
 
 ## Next Step
 
-Rodar `/gsd-hermes-execute-phase N`
+Rodar `/gsd-execute-phase N`

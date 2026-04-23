@@ -79,7 +79,7 @@ Quando todos plans completam:
 
 ### 5. Auto-Validate
 
-Rodar `/gsd-hermes-validate-phase N`
+Rodar `/gsd-validate-phase N`
 
 ## Output
 
@@ -89,5 +89,5 @@ Rodar `/gsd-hermes-validate-phase N`
 
 ## Next Step
 
-- Se mais phases: `/gsd-hermes-plan-phase N+1`
-- Se última: `/gsd-hermes-verify-work` para verification final
+- Se mais phases: `/gsd-plan-phase N+1`
+- Se última: `/gsd-verify-work` para verification final

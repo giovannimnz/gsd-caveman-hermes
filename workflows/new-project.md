@@ -52,7 +52,7 @@ Se usuário pediu ou `--auto`:
 
 ```bash
 # Pesquisar domínio
-/gsd-hermes-research-phase <domain>
+/gsd-research-phase <domain>
 ```
 
 ### 4. Requirements
@@ -154,4 +154,4 @@ Gerar `config.json`:
 
 ## Next Step
 
-Rodar `/gsd-hermes-plan-phase 1`
+Rodar `/gsd-plan-phase 1`

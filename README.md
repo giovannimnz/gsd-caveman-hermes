@@ -43,38 +43,38 @@ git submodule add https://github.com/SEU_USER/get-shit-done-hermes.git .get-shit
 
 No Hermes, use:
 ```
-skill_view(name="gsd-hermes/do")
+skill_view(name="gsd/do")
 ```
 
 ### 3. Comece um novo projeto
 
 ```bash
 # No diretório do projeto
-/gsd-hermes-new-project
+/gsd-new-project
 ```
 
 ## Skills Disponíveis
 
 ### Core
-- `gsd-hermes/do` - Dispatcher inteligente (rota texto livre para o comando certo)
-- `gsd-hermes/new-project` - Inicializa projeto com questioning, research, requirements, roadmap
-- `gsd-hermes/plan-phase` - Planeja uma fase específica
-- `gsd-hermes/execute-phase` - Executa uma fase
-- `gsd-hermes/add-phase` - Adiciona nova fase ao projeto
-- `gsd-hermes/debug` - Debug sistemático com método científico
-- `gsd-hermes/spike` - Experimento descartável para validar viabilidade
-- `gsd-hermes/sketch` - Mockups HTML para explorar design
-- `gsd-hermes/research-phase` - Pesquisa de domínio
+- `gsd/do` - Dispatcher inteligente (rota texto livre para o comando certo)
+- `gsd/new-project` - Inicializa projeto com questioning, research, requirements, roadmap
+- `gsd/plan-phase` - Planeja uma fase específica
+- `gsd/execute-phase` - Executa uma fase
+- `gsd/add-phase` - Adiciona nova fase ao projeto
+- `gsd/debug` - Debug sistemático com método científico
+- `gsd/spike` - Experimento descartável para validar viabilidade
+- `gsd/sketch` - Mockups HTML para explorar design
+- `gsd/research-phase` - Pesquisa de domínio
 
 ### Quality
-- `gsd-hermes/code-review` - Revisão de código
-- `gsd-hermes/verify-work` - Verificação de qualidade
-- `gsd-hermes/validate-phase` - Validação de fase
+- `gsd/code-review` - Revisão de código
+- `gsd/verify-work` - Verificação de qualidade
+- `gsd/validate-phase` - Validação de fase
 
 ### Management
-- `gsd-hermes/progress` - Status do projeto
-- `gsd-hermes/add-todo` - Adiciona tarefa
-- `gsd-hermes/milestone-summary` - Resumo de milestone
+- `gsd/progress` - Status do projeto
+- `gsd/add-todo` - Adiciona tarefa
+- `gsd/milestone-summary` - Resumo de milestone
 
 ## Conceitos Principais
 

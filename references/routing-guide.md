@@ -4,22 +4,22 @@
 
 | I want to... | Use this command |
 |--------------|------------------|
-| Start a new project | `/gsd-hermes-new-project` |
-| Map existing codebase | `/gsd-hermes-map-codebase` |
-| Route freeform request | `/gsd-hermes-do` |
-| Plan a specific phase | `/gsd-hermes-plan-phase N` |
-| Execute a phase | `/gsd-hermes-execute-phase N` |
-| Add new phase | `/gsd-hermes-add-phase` |
-| Research domain | `/gsd-hermes-research-phase` |
-| Debug something | `/gsd-hermes-debug` |
-| Spike/experiment | `/gsd-hermes-spike` |
-| Mockup UI | `/gsd-hermes-sketch` |
-| Verify work | `/gsd-hermes-verify-work` |
-| Validate phase | `/gsd-hermes-validate-phase N` |
-| Review code | `/gsd-hermes-code-review` |
-| Check progress | `/gsd-hermes-progress` |
-| Add todo/note | `/gsd-hermes-add-todo` |
-| Get help | `/gsd-hermes-help` |
+| Start a new project | `/gsd-new-project` |
+| Map existing codebase | `/gsd-map-codebase` |
+| Route freeform request | `/gsd-do` |
+| Plan a specific phase | `/gsd-plan-phase N` |
+| Execute a phase | `/gsd-execute-phase N` |
+| Add new phase | `/gsd-add-phase` |
+| Research domain | `/gsd-research-phase` |
+| Debug something | `/gsd-debug` |
+| Spike/experiment | `/gsd-spike` |
+| Mockup UI | `/gsd-sketch` |
+| Verify work | `/gsd-verify-work` |
+| Validate phase | `/gsd-validate-phase N` |
+| Review code | `/gsd-code-review` |
+| Check progress | `/gsd-progress` |
+| Add todo/note | `/gsd-add-todo` |
+| Get help | `/gsd-help` |
 
 ## Decision Trees
 
@@ -31,10 +31,10 @@ START HERE
     ▼
 Is there existing code?
     │
-    ├─ YES → /gsd-hermes-map-codebase
-    │         then /gsd-hermes-new-project
+    ├─ YES → /gsd-map-codebase
+    │         then /gsd-new-project
     │
-    └─ NO → /gsd-hermes-new-project
+    └─ NO → /gsd-new-project
 ```
 
 ### Want to Add Something?
@@ -42,17 +42,17 @@ Is there existing code?
 ```
 What is it?
     │
-    ├─ Bug → /gsd-hermes-debug
+    ├─ Bug → /gsd-debug
     │
-    ├─ Small fix/change → /gsd-hermes-quick
+    ├─ Small fix/change → /gsd-quick
     │
-    ├─ New feature (complex) → /gsd-hermes-add-phase
+    ├─ New feature (complex) → /gsd-add-phase
     │
-    ├─ New feature (small) → /gsd-hermes-quick
+    ├─ New feature (small) → /gsd-quick
     │
-    ├─ Exploration/research → /gsd-hermes-research-phase
+    ├─ Exploration/research → /gsd-research-phase
     │
-    └─ UI mockup → /gsd-hermes-sketch
+    └─ UI mockup → /gsd-sketch
 ```
 
 ### Mid-Project?
@@ -60,35 +60,35 @@ What is it?
 ```
 Where are you?
     │
-    ├─ Planning → /gsd-hermes-plan-phase N
+    ├─ Planning → /gsd-plan-phase N
     │
-    ├─ Executing → /gsd-hermes-execute-phase N
+    ├─ Executing → /gsd-execute-phase N
     │
-    ├─ Done with phase → /gsd-hermes-validate-phase N
+    ├─ Done with phase → /gsd-validate-phase N
     │
-    └─ Lost/confused → /gsd-hermes-progress
+    └─ Lost/confused → /gsd-progress
 ```
 
 ## Command Combinations
 
 ### Happy Path (New Project)
 
-1. `/gsd-hermes-new-project`
-2. `/gsd-hermes-plan-phase 1`
-3. `/gsd-hermes-execute-phase 1`
-4. `/gsd-hermes-validate-phase 1`
-5. `/gsd-hermes-plan-phase 2`
+1. `/gsd-new-project`
+2. `/gsd-plan-phase 1`
+3. `/gsd-execute-phase 1`
+4. `/gsd-validate-phase 1`
+5. `/gsd-plan-phase 2`
 6. ...continue until done
 
 ### With Research
 
-1. `/gsd-hermes-new-project`
-2. `/gsd-hermes-research-phase <topic>`
-3. `/gsd-hermes-plan-phase 1`
+1. `/gsd-new-project`
+2. `/gsd-research-phase <topic>`
+3. `/gsd-plan-phase 1`
 4. ...
 
 ### With Debug
 
-1. `/gsd-hermes-debug <bug description>`
+1. `/gsd-debug <bug description>`
 2. (fix the issue)
-3. `/gsd-hermes-verify-work`
+3. `/gsd-verify-work`

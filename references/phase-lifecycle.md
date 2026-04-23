@@ -31,7 +31,7 @@ Cada phase segue um lifecycle: PLANNED → IN_PROGRESS → COMPLETED → VALIDAT
 
 ### PLANNED → IN_PROGRESS
 
-**Trigger:** User runs `/gsd-hermes-execute-phase N`
+**Trigger:** User runs `/gsd-execute-phase N`
 
 **Actions:**
 - Update STATE.md
@@ -47,7 +47,7 @@ Cada phase segue um lifecycle: PLANNED → IN_PROGRESS → COMPLETED → VALIDAT
 
 ### COMPLETED → VALIDATED
 
-**Trigger:** `/gsd-hermes-validate-phase N` returns READY
+**Trigger:** `/gsd-validate-phase N` returns READY
 
 **Actions:**
 - Update STATE.md
@@ -69,7 +69,7 @@ Phases not yet planned:
 Not recommended but supported:
 
 ```
-/gsd-hermes-add-phase "Phase N"
+/gsd-add-phase "Phase N"
 ```
 
 Will add to roadmap even if previous phases incomplete.
