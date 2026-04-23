@@ -1,21 +1,34 @@
 {
-  "name": "get-shit-done-hermes",
+  "name": "gsd-hermes-caveman",
   "version": "1.0.0",
-  "description": "GSD adapted for Hermes Agent - meta-prompting and spec-driven development",
-  "private": true,
+  "description": "GSD Hermes + Caveman - Spec-driven development with compressed communication. Inspired by get-shit-done (TÂCHES) and caveman (JuliusBrussee). ~75% token reduction + phase-based planning.",
+  "bin": {
+    "gsd-caveman-hermes": "./bin/install.js"
+  },
   "scripts": {
+    "postinstall": "node bin/install.js",
     "list-skills": "ls -1 skills/",
     "list-agents": "ls -1 agents/",
-    "validate": "echo 'Validation script placeholder'"
+    "setup": "node bin/install.js"
   },
   "keywords": [
-    "hermes",
     "gsd",
+    "caveman",
+    "hermes",
     "meta-prompting",
     "spec-driven",
     "development",
-    "workflow"
+    "workflow",
+    "tokens",
+    "compression"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU_USER/gsd-caveman-hermes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SEU_USER/gsd-caveman-hermes/issues"
+  }
 }

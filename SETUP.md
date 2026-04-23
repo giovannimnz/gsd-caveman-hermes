@@ -4,7 +4,7 @@
 
 ```bash
 # Clone o repo no host (ou copie a pasta)
-git clone https://github.com/SEU_USER/gsd-caveman-hermes.git ~/gsd-caveman-hermes
+git clone https://github.com/giovannimnz/gsd-caveman-hermes.git ~/gsd-caveman-hermes
 
 # Crie link simbólico para a pasta de skills do Hermes
 ln -s ~/gsd-caveman-hermes/skills ~/./skills/gsd-caveman-hermes
@@ -27,7 +27,7 @@ cp -r ~/gsd-caveman-hermes/agents ~/./agents/
 
 ```bash
 # No diretório do projeto
-git submodule add https://github.com/SEU_USER/gsd-caveman-hermes.git .gsd-caveman-hermes
+git submodule add https://github.com/giovannimnz/gsd-caveman-hermes.git .gsd-caveman-hermes
 
 # Os skills ficam em .gsd-caveman-hermes/skills/
 ```
