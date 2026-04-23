@@ -1,0 +1,21 @@
+{
+  "name": "get-shit-done-hermes",
+  "version": "1.0.0",
+  "description": "GSD adapted for Hermes Agent - meta-prompting and spec-driven development",
+  "private": true,
+  "scripts": {
+    "list-skills": "ls -1 skills/",
+    "list-agents": "ls -1 agents/",
+    "validate": "echo 'Validation script placeholder'"
+  },
+  "keywords": [
+    "hermes",
+    "gsd",
+    "meta-prompting",
+    "spec-driven",
+    "development",
+    "workflow"
+  ],
+  "author": "",
+  "license": "MIT"
+}
